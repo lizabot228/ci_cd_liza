@@ -1,13 +1,13 @@
 import { sum, multiply, sayHello } from './math';
 
 test('sum works', () => {
-  if (sum(2, 3) !== 5) throw new Error();
+  expect(sum(2, 3)).toBe(5);
 });
 
 test('multiply works', () => {
-  if (multiply(2, 3) !== 6) throw new Error();
+  expect(multiply(2, 3)).toBe(6);
 });
 
 test('sayHello works', () => {
-  if (sayHello("Vasya") !== "Hello Vasya") throw new Error();
+  expect(sayHello("Vasya")).toBe("Hello Vasya");
 });
