@@ -1,4 +1,4 @@
-import { sum, multiply, sayHello } from './math';
+import { sum, multiply, sayHello } from './math.ts';
 
 console.log(sayHello("World"));
 console.log("2+3=" + sum(2, 3));
