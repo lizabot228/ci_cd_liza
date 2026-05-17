@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "strict": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }
